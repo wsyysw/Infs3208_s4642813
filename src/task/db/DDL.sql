@@ -13,6 +13,9 @@ CREATE TABLE `projects` (
 INSERT INTO `projects` (`id`, `Full name`, `Short name`) VALUES
 (1, 'JAPN1011 Exam', 'JAPN1011E');
 
+INSERT INTO `projects` (`id`, `Full name`, `Short name`) VALUES
+(1, 'JAPN1012 Exam', 'JAPN1012E');
+
 
 CREATE TABLE `tasks` (
   `id` int(3) NOT NULL,
