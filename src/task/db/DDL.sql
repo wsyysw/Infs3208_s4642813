@@ -14,7 +14,7 @@ INSERT INTO `projects` (`id`, `Full name`, `Short name`) VALUES
 (1, 'JAPN1011 Exam', 'JAPN1011E');
 
 INSERT INTO `projects` (`id`, `Full name`, `Short name`) VALUES
-(1, 'INFS4203 Exam', 'INFS4203E');
+(2, 'INFS4203 Exam', 'INFS4203E');
 
 
 CREATE TABLE `tasks` (
@@ -25,6 +25,7 @@ CREATE TABLE `tasks` (
   `task_desc` varchar(1000) CHARACTER SET utf8 COLLATE utf8_polish_ci NOT NULL,
   `state` int(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
 
 
 CREATE TABLE `users` (
