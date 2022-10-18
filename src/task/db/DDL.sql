@@ -14,7 +14,7 @@ INSERT INTO `projects` (`id`, `Full name`, `Short name`) VALUES
 (1, 'JAPN1011 Exam', 'JAPN1011E');
 
 INSERT INTO `projects` (`id`, `Full name`, `Short name`) VALUES
-(1, 'JAPN1012 Exam', 'JAPN1012E');
+(1, 'INFS4203 Exam', 'INFS4203E');
 
 
 CREATE TABLE `tasks` (
