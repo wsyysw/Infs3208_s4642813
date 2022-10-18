@@ -23,10 +23,6 @@ CREATE TABLE `tasks` (
   `state` int(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
-INSERT INTO `tasks` (`id`, `Full project_short_name`, `project_task_num`, 'task_name', 'task_desc', 'state') VALUES
-(1, 'JAPN1011E', 'JAPN1011E', 1, 'Week13 Quiz', '10 mins quiz (MCQ)', 'In progress');
-
-
 
 CREATE TABLE `users` (
   `id` int(2) NOT NULL,
