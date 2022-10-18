@@ -36,8 +36,6 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `login`, `password`, `admin`) VALUES
 (1, 'Shiyun', 's4642813', 'Administrator');
 
-INSERT INTO `tasks` (`id`, `Full project_short_name`, `project_task_num`, `task_name`, `task_desc`, `state`) VALUES
-(1, 'JAPN1011E', 'JAPN1011E', 1, 'Week13 Quiz', '10 mins quiz (MCQ)', 'In progress');
 
 ALTER TABLE `projects`
   ADD PRIMARY KEY (`id`);
